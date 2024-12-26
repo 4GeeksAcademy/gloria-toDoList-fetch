@@ -1,0 +1,29 @@
+body{
+    margin-top: 10%;
+    background-image: url("https://img.freepik.com/fotos-premium/fondo-acuarela-rosa-morado-mancha-pintura_901275-20712.jpg");
+    background-size: cover;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    border: 1px solid grey;
+    list-style: none;
+    padding: 5px
+}
+
+h1{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(61, 103, 255);
+    font-size: 5rem;
+}
+
+input{
+    border: none;
+    width: 100%;
+    font-size: 2rem;
+}
