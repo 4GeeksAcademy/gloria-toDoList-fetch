@@ -30,7 +30,7 @@ const Home = () => {
 					/>
 				</li>
 				{todos.map((item, index) => (
-					<li key={index} style={{ display: "flex", justifyContent: "space-between", fontSize:"2rem"}}>
+					<li key={index} className="todo-item" style={{ display: "flex", justifyContent: "space-between", fontSize:"2rem"}}>
 						{item}{" "}
 						<FaTrash
 							onClick={() =>
@@ -39,7 +39,7 @@ const Home = () => {
 								)
 							}
 							style={{cursor: "pointer", color:"red"}}
-						/>
+						className="trash-icon"/>
 					</li>
 				))}
 			</ul>

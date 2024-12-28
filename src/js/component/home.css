@@ -27,3 +27,19 @@ input{
     width: 100%;
     font-size: 2rem;
 }
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    position: relative;
+}
+
+.todo-item .trash-icon {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.todo-item:hover .trash-icon {
+    opacity: 1;
+}
